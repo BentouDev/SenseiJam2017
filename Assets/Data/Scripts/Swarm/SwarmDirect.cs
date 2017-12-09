@@ -7,6 +7,11 @@ public class SwarmDirect : SwarmState
 	public string LookX = "Look X";
 	public string LookY = "Look Y";
 
+	public override Vector3 CalcMasterMovement()
+	{
+		return Swarm.SwarmDirection;
+	}
+
 	public override Vector3 CalcPawnMovement(SwarmController.PawnInfo info)
 	{
 		return Swarm.CalcDefaultMovement(info);

@@ -87,7 +87,7 @@ public class SwarmController : Framework.Controller
         {
             var info = Pawns[index];
             info.FormationOffset.Set(poses[index].x, poses[index].y);
-            info.Pawn.transform.position = GroupCenter + new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
+            info.Pawn.transform.position = Pawn.transform.position + new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
             info.Pawn.Init();
 
             Pawns[index] = info;
@@ -147,7 +147,7 @@ public class SwarmController : Framework.Controller
             else
             {
                 var move = CalcMovement(info);
-                if (move.magnitude > 0.01f)
+                if (move.magnitude > 0.1f)
                     info.Pawn.ProcessMovement(move);
                 else
                     info.Pawn.ProcessMovement(Vector3.zero);
@@ -172,7 +172,7 @@ public class SwarmController : Framework.Controller
         ToDelete.Clear();
         
         // Update Group Center
-        Pawn.ProcessMovement(SwarmDirection);
+        Pawn.ProcessMovement(CurrentState ? CurrentState.CalcMasterMovement() : SwarmDirection);
         Pawn.Tick();
     }
 

@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class SwarmSpread : SwarmState
 {
+	public override Vector3 CalcMasterMovement()
+	{
+		return Vector3.zero;
+	}
+
 	public override Vector3 CalcPawnMovement(SwarmController.PawnInfo info)
 	{
 		return Swarm.CalcDefaultMovement(info);

@@ -27,6 +27,8 @@ public abstract class SwarmState : MonoBehaviour
         return Swarm.MaxCameraDistance;
     }
 
+    public abstract Vector3 CalcMasterMovement();
+
     public abstract Vector3 CalcPawnMovement(SwarmController.PawnInfo info);
     
     public abstract Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info);

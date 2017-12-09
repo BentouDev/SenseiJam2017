@@ -18,6 +18,11 @@ public class SwarmLock : SwarmState
     [Range(0, 1)]
     public float Angle;
 
+    public override Vector3 CalcMasterMovement()
+    {
+        return Vector3.zero;
+    }
+
     public override Vector3 CalcPawnMovement(SwarmController.PawnInfo info)
     {
         return Vector3.zero;
@@ -38,19 +43,21 @@ public class SwarmLock : SwarmState
 
     protected override void OnTick()
     {
-        if (Mathf.Abs(Swarm.SwarmDirection.y) > 0.01f)
-        {
-            if (Swarm.SwarmDirection.y > 0)
-            {
-                DoShrink();                
-            }
-            else
-            {
-                DoGrow();
-            }
-            
-            Angle = Mathf.Clamp(Angle, MinAngle, MaxAngle);
-        }
+        Angle += Swarm.SwarmDirection.y * GrowSpeed * Time.deltaTime;
+        Angle  = Mathf.Clamp(Angle, MinAngle, MaxAngle);
+
+//        if (Mathf.Abs(Swarm.SwarmDirection.y) > 0.01f)
+//        {
+//            
+////            if (Swarm.SwarmDirection.y > 0)
+////            {
+////                DoShrink();
+////            }
+////            else
+////            {
+////                DoGrow();
+////            }
+//        }
     }
     
     void DoShrink()

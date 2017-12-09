@@ -22,6 +22,11 @@ public class SwarmRockets : SwarmState
 		return CameraMax;
 	}
 
+	public override Vector3 CalcMasterMovement()
+	{
+		return Vector3.zero;
+	}
+
 	public override float GetCameraMin()
 	{
 		return CameraMin;

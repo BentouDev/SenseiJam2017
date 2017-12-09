@@ -43,7 +43,12 @@ public class SwarmLaser : SwarmState
     {
         return new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
     }
-        
+
+    public override Vector3 CalcMasterMovement()
+    {
+        return Vector3.zero;
+    }
+
     public override Vector3 CalcPawnMovement(SwarmController.PawnInfo info)
     {
         return Vector3.zero;
@@ -126,12 +131,12 @@ public class SwarmLaser : SwarmState
         return index;
     }
 
-    void OnGUI()
-    {
-        GUI.Label(new Rect(10,10,200,30), "Spins " + Spins);
-        if (Spins > 0)
-        {
-            GUI.Label(new Rect(10,30,200,30), "Spins/Sec " + SpinsPerSec);
-        }
-    }
+//    void OnGUI()
+//    {
+//        GUI.Label(new Rect(10,10,200,30), "Spins " + Spins);
+//        if (Spins > 0)
+//        {
+//            GUI.Label(new Rect(10,30,200,30), "Spins/Sec " + SpinsPerSec);
+//        }
+//    }
 }
