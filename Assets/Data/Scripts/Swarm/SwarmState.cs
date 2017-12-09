@@ -4,6 +4,8 @@ using UnityEngine;
 
 public abstract class SwarmState : MonoBehaviour
 {
+    public string SwitchButton;
+    
     protected SwarmController Swarm;
 
     public void Init(SwarmController ctrl)
@@ -15,10 +17,39 @@ public abstract class SwarmState : MonoBehaviour
     protected virtual void OnInit()
     { }
 
-    public virtual Vector3 CalcPawnMovement(SwarmController.PawnInfo info)
-    {
-        return Swarm.CalcDefaultMovement(info);
-    }
+    public abstract Vector3 CalcPawnMovement(SwarmController.PawnInfo info);
     
     public abstract Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info);
+
+    public void Begin()
+    {
+        OnBegin();  
+    }
+    
+    protected virtual void OnBegin()
+    { }
+
+    public void End()
+    {
+        OnEnd();        
+    }
+
+    protected virtual void OnEnd()
+    { }
+
+    public void Update()
+    {
+        if (Input.GetButtonDown(SwitchButton) && Swarm)
+        {
+            Swarm.SwitchState(this);
+        }
+    }
+
+    public void Tick()
+    {
+        OnTick();
+    }
+    
+    protected virtual void OnTick()
+    { }
 }

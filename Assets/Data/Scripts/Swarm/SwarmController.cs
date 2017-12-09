@@ -40,12 +40,13 @@ public class SwarmController : Framework.Controller
     public SwarmState CurrentState;
 
     [Header("Input")]
-    public string Expand;
-    public string Shrink;
     public string MoveX = "Horizontal";
     public string MoveY = "Vertical";
+    public string SquadRadius = "SquadRadius";
 
-    private Vector3 SwarmDirection;
+    [HideInInspector]
+    public Vector3 SwarmDirection;
+    public Vector3 FireDirection  { get; set; } 
 
     private static readonly float GoldenPretzel = (Mathf.Sqrt(5) + 1) * 0.5f;
 
@@ -71,13 +72,16 @@ public class SwarmController : Framework.Controller
         if (StartingState)
             CurrentState = StartingState;
         else
-            StartingState = AllStates.FirstOrDefault();
+            CurrentState = AllStates.FirstOrDefault();
 
         foreach (SwarmState state in AllStates)
         {
             state.Init(this);
         }
-        
+                
+        if (CurrentState)
+            CurrentState.Begin();
+
         var poses = CalcPositions(Pawns.Count, Alpha);
         for (int index = 0; index < Pawns.Count; index++)
         {
@@ -119,22 +123,17 @@ public class SwarmController : Framework.Controller
         if (Enabled)
         {
             RadiusMode = FormationSize.Stopped;
+
+            var radius = Input.GetAxis(SquadRadius);
+            if (Mathf.Abs(radius) > 0.01f)
+                TargetRadius = Mathf.Clamp(TargetRadius + radius * ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
             
-            if (Input.GetButton(Expand))
-            {
-                TargetRadius = Mathf.Clamp(TargetRadius + ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
-                // RadiusMode = FormationSize.Expanding;
-            }
-
-            if (Input.GetButton(Shrink))
-            {
-                TargetRadius = Mathf.Clamp(TargetRadius - ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
-                // RadiusMode = FormationSize.Shrinking;
-            }
-
             SwarmDirection.x = Input.GetAxis(MoveX);
             SwarmDirection.z = Input.GetAxis(MoveY);
         }
+
+        if (CurrentState)
+            CurrentState.Tick();
 
         // Update
         foreach (PawnInfo info in Pawns)
@@ -188,8 +187,9 @@ public class SwarmController : Framework.Controller
             return CurrentState.CalcPawnMovement(info);
 
         return CalcDefaultMovement(info);
-
-        // Vector3 direction = SwarmDirection;
+    }
+    
+    // Vector3 direction = SwarmDirection;
 
 //        var displacement = info.Pawn.transform.position - GroupCenter;
 //        var diff         = displacement - new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
@@ -207,7 +207,6 @@ public class SwarmController : Framework.Controller
 //                direction -= new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
 //                break;
 //        }
-    }
 
     // Swarm positioning
     List<Vector2> CalcPositions(int count, float alpha)
@@ -237,5 +236,19 @@ public class SwarmController : Framework.Controller
             radius = Mathf.Sqrt(index - 1 * 0.5f) / Mathf.Sqrt(count - (theB + 1) * 0.5f);
         
         return radius;
+    }
+
+    public void SwitchState(SwarmState swarmState)
+    {
+        if (CurrentState == swarmState)
+            return;
+        
+        if (CurrentState)
+            CurrentState.End();
+
+        CurrentState = swarmState;
+
+        if (CurrentState)
+            CurrentState.Begin();
     }
 }

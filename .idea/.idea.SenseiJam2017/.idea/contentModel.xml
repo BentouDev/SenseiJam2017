@@ -16,8 +16,31 @@
               <e p="MechaModel.cs" t="Include" />
               <e p="SwarmController.cs" t="Include" />
               <e p="SwarmDirect.cs" t="Include" />
+              <e p="SwarmGUI.cs" t="Include" />
+              <e p="SwarmLaser.cs" t="Include" />
+              <e p="SwarmLock.cs" t="Include" />
+              <e p="SwarmRockets.cs" t="Include" />
               <e p="SwarmSpread.cs" t="Include" />
               <e p="SwarmState.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="DecalSystem" t="Include">
+          <e p="Plugins" t="Include">
+            <e p="DecalSystem" t="Include">
+              <e p="Decal.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="DecalEditor.cs" t="Include" />
+                <e p="Utils" t="Include">
+                  <e p="GUIUtils.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Utils" t="Include">
+                <e p="DecalBuilder.cs" t="Include" />
+                <e p="DecalUtils.cs" t="Include" />
+                <e p="MeshBuilder.cs" t="Include" />
+                <e p="PolygonClippingUtils.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>
@@ -429,6 +452,120 @@
                 <e p="CustomMotionVectorTexture.shader" t="Include" />
               </e>
             </e>
+          </e>
+        </e>
+        <e p="SabreCSG" t="Include">
+          <e p="Changelog.txt" t="Include" />
+          <e p="Internal" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="BrushPreview.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Brushes" t="Include">
+              <e p="PrimitiveBrush.cs" t="Include" />
+            </e>
+            <e p="CallbackEvents.cs" t="Include" />
+            <e p="CSGModel.cs" t="Include" />
+            <e p="CSGModelBase.cs" t="Include" />
+            <e p="CSGModelRuntime.cs" t="Include" />
+            <e p="CurrentSettings.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ExpandPropertiesDrawer.cs" t="Include" />
+              <e p="Inspectors" t="Include">
+                <e p="CSGBuildContextInspector.cs" t="Include" />
+                <e p="CSGModelInspector.cs" t="Include" />
+                <e p="KeyMappingsInspector.cs" t="Include" />
+                <e p="PrimitiveBrushInspector.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="UtilityShortcuts.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ExpandPropertiesAttribute.cs.cs" t="Include" />
+            <e p="Extensions" t="Include">
+              <e p="ColorHex.cs" t="Include" />
+              <e p="EditorHelper.cs" t="Include" />
+              <e p="EnumHelper.cs" t="Include" />
+              <e p="Extensions.cs" t="Include" />
+              <e p="MathHelper.cs" t="Include" />
+              <e p="Matrices" t="Include">
+                <e p="Matrix2x2.cs" t="Include" />
+                <e p="Matrix3x2.cs" t="Include" />
+              </e>
+              <e p="MeshExtensions.cs" t="Include" />
+              <e p="StringHelper.cs" t="Include" />
+              <e p="TransformData.cs" t="Include" />
+              <e p="TransformHelper.cs" t="Include" />
+              <e p="WorldTransformData.cs" t="Include" />
+            </e>
+            <e p="Geometry" t="Include">
+              <e p="AdjacencyHelper.cs" t="Include" />
+              <e p="BrushFactory.cs" t="Include" />
+              <e p="GeometryHelper.cs" t="Include" />
+              <e p="MeshHelper.cs" t="Include" />
+              <e p="OBJFactory.cs" t="Include" />
+              <e p="OBJVertexList.cs" t="Include" />
+              <e p="PolygonFactory.cs" t="Include" />
+              <e p="UVUtility.cs" t="Include" />
+            </e>
+            <e p="Input" t="Include">
+              <e p="EditorKeyMappings.cs" t="Include" />
+              <e p="KeyMappings.cs" t="Include" />
+            </e>
+            <e p="IPostBuildListener.cs" t="Include" />
+            <e p="LinearFPSCam.cs" t="Include" />
+            <e p="Pair.cs" t="Include" />
+            <e p="Tools" t="Include">
+              <e p="ClipEditor.cs" t="Include" />
+              <e p="DrawEditor.cs" t="Include" />
+              <e p="EdgeEditor.cs" t="Include" />
+              <e p="ResizeEditor.cs" t="Include" />
+              <e p="ResizeHandlePair.cs" t="Include" />
+              <e p="SurfaceEditor.cs" t="Include" />
+              <e p="Tool.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="BrushUtility.cs" t="Include" />
+                <e p="ClipUtility.cs" t="Include" />
+                <e p="DrawUtility.cs" t="Include" />
+                <e p="EdgeUtility.cs" t="Include" />
+                <e p="SurfaceUtility.cs" t="Include" />
+                <e p="Vertex Weld Ops" t="Include">
+                  <e p="VertexWeldCentroidOperation.cs" t="Include" />
+                  <e p="VertexWeldOperation.cs" t="Include" />
+                  <e p="VertexWeldToleranceOperation.cs" t="Include" />
+                </e>
+                <e p="VertexUtility.cs" t="Include" />
+              </e>
+              <e p="VertexEditor.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="CSGGrid.cs" t="Include" />
+              <e p="GridManager.cs" t="Include" />
+              <e p="RadialMenu.cs" t="Include" />
+              <e p="SabreCSGPreferences.cs" t="Include" />
+              <e p="SabreCSGResources.cs" t="Include" />
+              <e p="SabreGraphics.cs" t="Include" />
+              <e p="SabreGUIHelper.cs" t="Include" />
+              <e p="SabreGUILayout.cs" t="Include" />
+              <e p="SabreInput.cs" t="Include" />
+              <e p="SabreMouse.cs" t="Include" />
+              <e p="Toolbar.cs" t="Include" />
+              <e p="VertexColorWindow.cs" t="Include" />
+            </e>
+            <e p="UpdateUtility.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Diffuse-VertexColored.shader" t="Include" />
+            <e p="Handle.shader" t="Include" />
+            <e p="Line.shader" t="Include" />
+            <e p="LineDashed.shader" t="Include" />
+            <e p="Plane.shader" t="Include" />
+            <e p="Preview.shader" t="Include" />
+            <e p="SeeExcluded.shader" t="Include" />
+            <e p="Tri-Planar.shader" t="Include" />
+            <e p="UINoAlpha.shader" t="Include" />
+            <e p="VertexTinted.shader" t="Include" />
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
