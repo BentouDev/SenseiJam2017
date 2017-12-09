@@ -19,6 +19,7 @@ public class SwarmController : Framework.Controller
     public List<PawnInfo> Pawns = new List<PawnInfo>();
     private List<StatePawn> ToDelete = new List<StatePawn>();
 
+    [Header("Positioning")]
     public Vector3 GroupCenter;
 
     public float Alpha = 0;
@@ -27,10 +28,14 @@ public class SwarmController : Framework.Controller
     public float MaxRadius = 45;
     public float ChangeSpeed = 2;
 
+    [Header("State")]
     public SwarmState CurrentState;
 
+    [Header("Input")]
     public string Expand;
     public string Shrink;
+    public string MoveX = "Horizontal";
+    public string MoveY = "Vertical";
 
     public Vector3 SwarmDirection;
 
@@ -67,14 +72,28 @@ public class SwarmController : Framework.Controller
         {
             info.Pawn.FixedTick();
         }
+        
+        Pawn.FixedTick();
     }
 
     protected override void OnLateTick()
     {
+        /*Vector3 posSum = Vector3.zero;
+        foreach (PawnInfo info in Pawns)
+        {
+            posSum += info.Pawn.transform.position;
+        }
+
+        posSum /= Pawns.Count;
+
+        GroupCenter = posSum;*/
+        
         foreach (PawnInfo info in Pawns)
         {
             info.Pawn.LateTick();
         }
+        
+        Pawn.LateTick();
     }
 
     protected override void OnProcessControll()
@@ -86,15 +105,18 @@ public class SwarmController : Framework.Controller
             
             if (Input.GetButton(Expand))
             {
-                RadiusMode = FormationSize.Expanding;
-                // TargetRadius = Mathf.Clamp(TargetRadius + ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
+                TargetRadius = Mathf.Clamp(TargetRadius + ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
+                // RadiusMode = FormationSize.Expanding;
             }
 
             if (Input.GetButton(Shrink))
             {
-                RadiusMode = FormationSize.Shrinking;
-                // TargetRadius = Mathf.Clamp(TargetRadius - ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
+                TargetRadius = Mathf.Clamp(TargetRadius - ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
+                // RadiusMode = FormationSize.Shrinking;
             }
+
+            SwarmDirection.x = -Input.GetAxis(MoveY);
+            SwarmDirection.z =  Input.GetAxis(MoveX);
         }
 
         // Update
@@ -104,8 +126,16 @@ public class SwarmController : Framework.Controller
                 ToDelete.Add(info.Pawn);
             else
             {
-                info.Pawn.DesiredForward = SwarmDirection;
-                info.Pawn.ProcessMovement(CalcMovement(info));
+                if (SwarmDirection.magnitude > 0.01f)
+                    info.Pawn.DesiredForward = SwarmDirection;
+                else
+                    info.Pawn.DesiredForward = Pawn.CurrentDirection;
+
+                var move = CalcMovement(info);
+                if (move.magnitude > 0.01f)
+                    info.Pawn.ProcessMovement(move);
+                else
+                    info.Pawn.ProcessMovement(Vector3.zero);
             }
         }
         
@@ -122,20 +152,36 @@ public class SwarmController : Framework.Controller
         }
         
         ToDelete.Clear();
+        
+        // Update Group Center
+        Pawn.ProcessMovement(SwarmDirection);
+        Pawn.Tick();
     }
 
     Vector3 CalcMovement(PawnInfo info)
     {
-        Vector3 direction = SwarmDirection;
-        switch (RadiusMode)
-        {
-            case FormationSize.Expanding:
-                direction += new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
-                break;
-            case FormationSize.Shrinking:
-                direction -= new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
-                break;
-        }
+        // Vector3 direction = SwarmDirection;
+
+        var displacement = info.Pawn.transform.position - Pawn.transform.position;
+        var targetDiff   = new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
+        Vector3 direction = targetDiff - displacement;
+        
+//        var displacement = info.Pawn.transform.position - GroupCenter;
+//        var diff         = displacement - new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
+//        if (diff.magnitude > 0.1f)// Mathf.Abs(diff.magnitude - (info.FormationOffset * TargetRadius).magnitude) > 0.01f)
+//        {
+//            direction += diff;
+//        }
+        
+//        switch (RadiusMode)
+//        {
+//            case FormationSize.Expanding:
+//                direction += new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
+//                break;
+//            case FormationSize.Shrinking:
+//                direction -= new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
+//                break;
+//        }
 
         return direction;
     }
@@ -149,7 +195,8 @@ public class SwarmController : Framework.Controller
         for (int i = 1; i <= count; i++)
         {
             float radius = CalcRadius(i, count + 1, theB);
-            float theta = 2 * phi * i / Mathf.Pow(phi, 2);
+            // float theta = 2 * phi * i / Mathf.Pow(phi, 2);
+            float theta = Mathf.Deg2Rad * -i * 360 * phi;
             output.Add(new Vector2(radius * Mathf.Cos(theta), radius * Mathf.Sin(theta)));
         }
 
