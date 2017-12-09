@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 3b697275062913341969f5fe08372f5d
+timeCreated: 1512833849
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Data Control Unifon
+  fontNames:
+  - Data Control Unifon
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

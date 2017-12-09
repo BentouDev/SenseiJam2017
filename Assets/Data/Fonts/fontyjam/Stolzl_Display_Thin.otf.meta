@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 77eb39d7a62d1e644980e64a5a8e6c8d
+timeCreated: 1512833475
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Stolzl Display
+  fontNames:
+  - Stolzl Display
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 519cdd73aa4721d4d92922525b416c29, type: 3}
+  - {fileID: 12800000, guid: 6f1067c86ec2c6649bfc31e054dd25f6, type: 3}
+  - {fileID: 12800000, guid: 6a65aefbeb6238042adeb3ea6d4c3093, type: 3}
+  - {fileID: 12800000, guid: 53a566edc4b622b438e1451cd4e755d4, type: 3}
+  - {fileID: 12800000, guid: 09dbc8de922472a49b4b47516b1a1dab, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
