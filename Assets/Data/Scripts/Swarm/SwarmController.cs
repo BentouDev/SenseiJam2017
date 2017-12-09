@@ -106,8 +106,12 @@ public class SwarmController : Framework.Controller
 
     protected override void OnLateTick()
     {
-        ActionCam.RotatedOffset.z = Mathf.Lerp(MinCameraDistance, MaxCameraDistance,
-            Mathf.InverseLerp(MinRadius, MaxRadius, TargetRadius));
+        ActionCam.RotatedOffset.z = Mathf.Lerp
+        (
+            CurrentState ? CurrentState.GetCameraMin() : MinCameraDistance, 
+            CurrentState ? CurrentState.GetCameraMax() : MaxCameraDistance,
+            Mathf.InverseLerp(MinRadius, MaxRadius, TargetRadius)
+        );
 
         foreach (PawnInfo info in Pawns)
         {

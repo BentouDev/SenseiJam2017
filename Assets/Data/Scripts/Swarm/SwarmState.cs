@@ -17,6 +17,16 @@ public abstract class SwarmState : MonoBehaviour
     protected virtual void OnInit()
     { }
 
+    public virtual float GetCameraMin()
+    {
+        return Swarm.MinCameraDistance;
+    }
+
+    public virtual float GetCameraMax()
+    {
+        return Swarm.MaxCameraDistance;
+    }
+
     public abstract Vector3 CalcPawnMovement(SwarmController.PawnInfo info);
     
     public abstract Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info);
