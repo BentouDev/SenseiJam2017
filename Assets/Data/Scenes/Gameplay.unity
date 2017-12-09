@@ -637,7 +637,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 832911604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 347.58334, y: 182.9113, z: 0.75}
+  m_LocalPosition: {x: 254.08334, y: 182.9113, z: 0.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1543673437}
@@ -695,7 +695,7 @@ MonoBehaviour:
   ActionCam: {fileID: 893883594}
   MinCameraDistance: -35
   MaxCameraDistance: -70
-  CurrentState: {fileID: 849550883}
+  CurrentState: {fileID: 849550884}
   Expand: Fire1
   Shrink: Fire2
   MoveX: Move X
