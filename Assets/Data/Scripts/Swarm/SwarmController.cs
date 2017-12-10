@@ -1,9 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Xml.Schema;
 using Framework;
-using NUnit.Framework.Internal.Filters;
 using UnityEngine;
 
 public class SwarmController : Framework.Controller
