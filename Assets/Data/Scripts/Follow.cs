@@ -7,6 +7,11 @@ public class Follow : Controller
 {
     public StatePawn Target;
 
+    protected override void OnInit()
+    {
+        MainGame.Instance.Controllers.Enable();
+    }
+
     protected override void OnProcessControll()
     {
         Vector3 direction = Vector3.zero;

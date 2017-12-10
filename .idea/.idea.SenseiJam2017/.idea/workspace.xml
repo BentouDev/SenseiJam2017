@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d087e8d1-a9f1-45fc-87dd-abbce33c1c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Projectile.cs.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Projectile.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/bento_plakate_2.jpg.meta" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/bento_plakate_2.png.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Capsule.prefab" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Capsule.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Framework" afterPath="$PROJECT_DIR$/Assets/Framework" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Unit.prefab" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Unit.prefab" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scenes/Gameplay.unity" afterPath="$PROJECT_DIR$/Assets/Data/Scenes/Gameplay.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SenseiJam2017/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SenseiJam2017/.idea/contentModel.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.SenseiJam2017/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.SenseiJam2017/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,6 +32,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/FaceCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmSpread.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Activateable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/BasePawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,11 +42,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/Shooting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Hurt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/Camera/ActionCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/SimpleActivator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Player/SimplePlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Utils/Pool/PrefabPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Utils/Pool/PooledObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/StatePawn/StatePawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/GamePlay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/EnemyNoise.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/GameStart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/GameEnd.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,22 +77,25 @@
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Framework/Utils/Pool/PrefabPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/Shooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Effect.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/EnemyNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/Framework/Utils/Lifetime.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Follow.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Hurt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/FaceCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/EnemyGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/Shooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Framework/Utils/Pool/PrefabPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Framework/Utils/Lifetime.cs" />
+        <option value="$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="477" />
+    <option name="y" value="-9" />
     <option name="width" value="768" />
     <option name="height" value="900" />
   </component>
@@ -133,7 +132,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="swarm&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;follo&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Follow.cs&#10;life&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;lifetim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;eff&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Effect.cs&#10;lock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;Life&#9;null&#9;null&#10;swarmdi&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmDirect.cs&#10;swarmlock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;swarmcon&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;swarmroc&#9;null&#9;null&#10;swarmcontr&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;sim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Base/Player/SimplePlayerController.cs&#10;statepaw&#9;null&#9;null&#10;simple&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="simplea&#9;null&#9;null&#10;swarm&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;prefab&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Pool/PrefabPool.cs&#10;follo&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Follow.cs&#10;life&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;lifetim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;eff&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Effect.cs&#10;lock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;Life&#9;null&#9;null&#10;swarmdi&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmDirect.cs&#10;swarmlock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;swarmcon&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;swarmroc&#9;null&#9;null&#10;swarmcontr&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;sim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Base/Player/SimplePlayerController.cs&#10;statepaw&#9;null&#9;null&#10;simple&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -149,7 +148,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="6088" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -170,11 +169,12 @@
       <workItem from="1512846527528" duration="1092000" />
       <workItem from="1512850263120" duration="14236000" />
       <workItem from="1512870919563" duration="520000" />
+      <workItem from="1512894469872" duration="4231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35656000" />
+    <option name="totallyTimeSpent" value="39887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,8 +229,21 @@
           </properties>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs</url>
+          <line>71</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs">
+            <startOffsets>
+              <startOffset value="1400" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1470" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>

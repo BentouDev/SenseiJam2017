@@ -1,0 +1,421 @@
+fileFormatVersion: 2
+guid: 8a5aec6435029d142b062991f1529e3a
+timeCreated: 1512900974
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: Head_rotate
+    100006: Head_top
+    100008: ikHandle1
+    100010: ikHandle2
+    100012: ikHandle3
+    100014: ikHandle4
+    100016: ikHandle5
+    100018: ikHandle6
+    100020: ikHandle7
+    100022: ikHandle8
+    100024: imagePlane1
+    100026: imagePlane2
+    100028: Korpus
+    100030: L_Blaster
+    100032: Leg_1
+    100034: leg_1_part1
+    100036: leg_1_part2
+    100038: leg_1_part3
+    100040: leg_1_part4
+    100042: leg_1_part5
+    100044: leg_1_top
+    100046: Leg_2
+    100048: leg_2_part2
+    100050: leg_2_part2 1
+    100052: leg_2_part3
+    100054: leg_2_part4
+    100056: leg_2_part5
+    100058: leg_2_top
+    100060: Leg_3
+    100062: leg_3_part2
+    100064: leg_3_part3
+    100066: leg_3_part3 1
+    100068: leg_3_part4
+    100070: leg_3_part5
+    100072: leg_3_top
+    100074: Leg_4
+    100076: leg_4_part2
+    100078: leg_4_part4
+    100080: leg_4_part4 1
+    100082: leg_4_part4 2
+    100084: leg_4_part5
+    100086: leg_4_top
+    100088: Main_bone
+    100090: nurbsCircle10
+    100092: nurbsCircle11
+    100094: nurbsCircle12
+    100096: nurbsCircle13
+    100098: nurbsCircle14
+    100100: nurbsCircle15
+    100102: nurbsCircle16
+    100104: nurbsCircle17
+    100106: nurbsCircle5
+    100108: nurbsCircle6
+    100110: nurbsCircle9
+    100112: polySurface1
+    100114: polySurface2
+    100116: polySurface3
+    100118: polySurface4
+    100120: R_Blaster
+    100122: transform1
+    100124: transform10
+    100126: transform11
+    100128: transform2
+    100130: transform3
+    100132: transform4
+    100134: transform5
+    100136: transform6
+    100138: transform7
+    100140: transform8
+    100142: transform9
+    100144: Russian_Destroyer
+    400000: //RootNode
+    400002: Head
+    400004: Head_rotate
+    400006: Head_top
+    400008: ikHandle1
+    400010: ikHandle2
+    400012: ikHandle3
+    400014: ikHandle4
+    400016: ikHandle5
+    400018: ikHandle6
+    400020: ikHandle7
+    400022: ikHandle8
+    400024: imagePlane1
+    400026: imagePlane2
+    400028: Korpus
+    400030: L_Blaster
+    400032: Leg_1
+    400034: leg_1_part1
+    400036: leg_1_part2
+    400038: leg_1_part3
+    400040: leg_1_part4
+    400042: leg_1_part5
+    400044: leg_1_top
+    400046: Leg_2
+    400048: leg_2_part2
+    400050: leg_2_part2 1
+    400052: leg_2_part3
+    400054: leg_2_part4
+    400056: leg_2_part5
+    400058: leg_2_top
+    400060: Leg_3
+    400062: leg_3_part2
+    400064: leg_3_part3
+    400066: leg_3_part3 1
+    400068: leg_3_part4
+    400070: leg_3_part5
+    400072: leg_3_top
+    400074: Leg_4
+    400076: leg_4_part2
+    400078: leg_4_part4
+    400080: leg_4_part4 1
+    400082: leg_4_part4 2
+    400084: leg_4_part5
+    400086: leg_4_top
+    400088: Main_bone
+    400090: nurbsCircle10
+    400092: nurbsCircle11
+    400094: nurbsCircle12
+    400096: nurbsCircle13
+    400098: nurbsCircle14
+    400100: nurbsCircle15
+    400102: nurbsCircle16
+    400104: nurbsCircle17
+    400106: nurbsCircle5
+    400108: nurbsCircle6
+    400110: nurbsCircle9
+    400112: polySurface1
+    400114: polySurface2
+    400116: polySurface3
+    400118: polySurface4
+    400120: R_Blaster
+    400122: transform1
+    400124: transform10
+    400126: transform11
+    400128: transform2
+    400130: transform3
+    400132: transform4
+    400134: transform5
+    400136: transform6
+    400138: transform7
+    400140: transform8
+    400142: transform9
+    400144: Russian_Destroyer
+    4300000: polySurface4
+    4300002: Russian_Destroyer
+    7400000: Straight
+    7400002: Back
+    7400004: Left
+    7400006: Right
+    7400008: Ready_attack
+    7400010: Idle
+    9500000: //RootNode
+    13700000: polySurface4
+    13700002: Russian_Destroyer
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 8ce015c36193251458767af2ea42f88c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: 529777ddc3a653e48881587fcca04c60, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Straight
+      takeName: Straight
+      firstFrame: 10
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Back
+      takeName: Back
+      firstFrame: 60
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Left
+      takeName: Left
+      firstFrame: 125
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Right
+      takeName: Right
+      firstFrame: 160
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Ready_attack
+      takeName: Ready_attack
+      firstFrame: 225
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 250
+      lastFrame: 316
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: bf1aa7a6ecf6e94468715128943f89f1,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

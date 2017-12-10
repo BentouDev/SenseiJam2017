@@ -14,6 +14,8 @@
             </e>
           </e>
           <e p="Scripts" t="Include">
+            <e p="ActionActivator.cs" t="Include" />
+            <e p="Activateable.cs" t="Include" />
             <e p="Effect.cs" t="Include" />
             <e p="EnemyGUI.cs" t="Include" />
             <e p="FaceCamera.cs" t="Include" />
@@ -23,7 +25,9 @@
             <e p="GameStart.cs" t="Include" />
             <e p="Hurt.cs" t="Include" />
             <e p="MainGame.cs" t="Include" />
+            <e p="MessageSystem.cs" t="Include" />
             <e p="Projectile.cs" t="Include" />
+            <e p="SimpleActivator.cs" t="Include" />
             <e p="Swarm" t="Include">
               <e p="MechaModel.cs" t="Include" />
               <e p="Rifle.cs" t="Include" />
