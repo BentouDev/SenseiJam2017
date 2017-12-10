@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SwarmLock : SwarmState
 {	
+    public PrefabPool ProjectilePrefab;
+    
     public string LookX = "Look X";
     public string LookY = "Look Y";
+    public string Shoot = "Shoot";
 
     public float GrowSpeed = 0.25f;
     
@@ -43,21 +46,16 @@ public class SwarmLock : SwarmState
 
     protected override void OnTick()
     {
-        Angle += Swarm.SwarmDirection.y * GrowSpeed * Time.deltaTime;
+        Angle -= Input.GetAxis(Swarm.MoveY) * GrowSpeed * Time.deltaTime;
         Angle  = Mathf.Clamp(Angle, MinAngle, MaxAngle);
 
-//        if (Mathf.Abs(Swarm.SwarmDirection.y) > 0.01f)
-//        {
-//            
-////            if (Swarm.SwarmDirection.y > 0)
-////            {
-////                DoShrink();
-////            }
-////            else
-////            {
-////                DoGrow();
-////            }
-//        }
+        if (Input.GetButton(Shoot))
+        {
+            foreach (SwarmController.PawnInfo info in Swarm.Pawns)
+            {
+                info.Model.HeavyShooting.Shoot(ProjectilePrefab);
+            }
+        }
     }
     
     void DoShrink()

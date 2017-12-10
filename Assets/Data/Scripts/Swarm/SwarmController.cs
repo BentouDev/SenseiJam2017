@@ -46,8 +46,9 @@ public class SwarmController : Framework.Controller
 
     [HideInInspector]
     public Vector3 SwarmDirection;
-    public Vector3 FireDirection  { get; set; } 
+    public Vector3 FireDirection  { get; set; }
 
+    private int LastUnitCount;
     private static readonly float GoldenPretzel = (Mathf.Sqrt(5) + 1) * 0.5f;
 
     private enum FormationSize
@@ -92,6 +93,8 @@ public class SwarmController : Framework.Controller
 
             Pawns[index] = info;
         }
+
+        LastUnitCount = Pawns.Count;
     }
 
     protected override void OnFixedTick()
@@ -170,10 +173,28 @@ public class SwarmController : Framework.Controller
         }
         
         ToDelete.Clear();
+
+        if (LastUnitCount != Pawns.Count)
+        {
+            LastUnitCount = Pawns.Count;
+            UpdatePositioning();
+        }
         
         // Update Group Center
         Pawn.ProcessMovement(CurrentState ? CurrentState.CalcMasterMovement() : SwarmDirection);
         Pawn.Tick();
+    }
+
+    public void UpdatePositioning()
+    {
+        var poses = CalcPositions(Pawns.Count, Alpha);
+        for (int index = 0; index < Pawns.Count; index++)
+        {
+            var info = Pawns[index];
+            info.FormationOffset.Set(poses[index].x, poses[index].y);
+         
+            Pawns[index] = info;
+        }
     }
 
     public Vector3 CalcDefaultMovement(PawnInfo info)

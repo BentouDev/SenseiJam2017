@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SwarmDirect : SwarmState
 {
+	public PrefabPool ProjectilePrefab;
+	
 	public string LookX = "Look X";
 	public string LookY = "Look Y";
+	public string Shoot = "Shoot";
 
 	public override Vector3 CalcMasterMovement()
 	{
@@ -26,5 +29,16 @@ public class SwarmDirect : SwarmState
 			Swarm.FireDirection = new Vector3(x, 0, y).normalized;
 
 		return Swarm.FireDirection;
+	}
+
+	protected override void OnTick()
+	{
+		if (Input.GetButton(Shoot))
+		{
+			foreach (SwarmController.PawnInfo info in Swarm.Pawns)
+			{
+				info.Model.WalkingShooting.Shoot(ProjectilePrefab);
+			}
+		}
 	}
 }

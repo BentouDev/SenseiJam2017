@@ -10,6 +10,8 @@ public class MechaModel : MonoBehaviour
     [Header("Refs")]
     public Animator Anim;
     public StatePawn Pawn;
+    public Shooting WalkingShooting;
+    public Shooting HeavyShooting;
 
     [Header("Anims")] 
     public string Forward;

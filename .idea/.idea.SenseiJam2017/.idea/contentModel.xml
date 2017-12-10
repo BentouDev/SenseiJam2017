@@ -7,13 +7,27 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Data" t="Include">
+          <e p="EnemyNoise.shader" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="digital-7" t="Include">
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
           <e p="Scripts" t="Include">
+            <e p="Effect.cs" t="Include" />
+            <e p="EnemyGUI.cs" t="Include" />
+            <e p="FaceCamera.cs" t="Include" />
+            <e p="Follow.cs" t="Include" />
             <e p="GameEnd.cs" t="Include" />
             <e p="GamePlay.cs" t="Include" />
             <e p="GameStart.cs" t="Include" />
+            <e p="Hurt.cs" t="Include" />
             <e p="MainGame.cs" t="Include" />
+            <e p="Projectile.cs" t="Include" />
             <e p="Swarm" t="Include">
               <e p="MechaModel.cs" t="Include" />
+              <e p="Rifle.cs" t="Include" />
+              <e p="Shooting.cs" t="Include" />
               <e p="SwarmController.cs" t="Include" />
               <e p="SwarmDirect.cs" t="Include" />
               <e p="SwarmGUI.cs" t="Include" />
