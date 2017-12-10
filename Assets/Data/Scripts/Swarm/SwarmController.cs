@@ -37,6 +37,8 @@ public class SwarmController : Framework.Controller
     [Header("State")]
     public SwarmState CurrentState;
 
+    public SwarmGUI GUI;
+
     [Header("Input")]
     public string MoveX = "Horizontal";
     public string MoveY = "Vertical";
@@ -93,6 +95,8 @@ public class SwarmController : Framework.Controller
         }
 
         LastUnitCount = Pawns.Count;
+        
+        GUI.UpdatePositioning();
     }
 
     protected override void OnFixedTick()
@@ -185,6 +189,8 @@ public class SwarmController : Framework.Controller
 
     public void UpdatePositioning()
     {
+        GUI.UpdatePositioning();
+        
         var poses = CalcPositions(Pawns.Count, Alpha);
         for (int index = 0; index < Pawns.Count; index++)
         {

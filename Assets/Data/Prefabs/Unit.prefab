@@ -2689,6 +2689,26 @@ MonoBehaviour:
   MaxHealth: 100
   StartingHealth: 100
   Delay: 1
+  OnDead: {fileID: 0}
+  DeathAnim:
+    IsPlaying: 0
+    ForceStopOnEnd: 0
+    StopBeforePlay: 0
+    Animator: {fileID: 0}
+    Animation: 
+    StopState: 
+    Duration: 0
+    OnStart:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    OnFinish:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  DedDuration: 0
 --- !u!114 &114835811247305812
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2760,8 +2780,8 @@ MonoBehaviour:
   FaceTime: 1
   StickToGround: 1
   Movement:
-    MaxSpeed: 6
-    Acceleration: 6
+    MaxSpeed: 8
+    Acceleration: 8
     Friction: 24
     MinimalForceThreshold: 0.01
     MinimalVelocityThreshold: 0.1

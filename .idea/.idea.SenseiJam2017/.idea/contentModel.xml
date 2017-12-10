@@ -40,6 +40,7 @@
               <e p="SwarmRockets.cs" t="Include" />
               <e p="SwarmSpread.cs" t="Include" />
               <e p="SwarmState.cs" t="Include" />
+              <e p="UnitUI.cs" t="Include" />
             </e>
           </e>
         </e>
