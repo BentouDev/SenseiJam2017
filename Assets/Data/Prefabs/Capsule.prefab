@@ -634,7 +634,6 @@ GameObject:
   - component: {fileID: 114699557060376458}
   - component: {fileID: 114300860099212592}
   - component: {fileID: 114402083136364312}
-  - component: {fileID: 114689657461403444}
   - component: {fileID: 95289655932452018}
   m_Layer: 10
   m_Name: Capsule
@@ -1837,19 +1836,6 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!114 &114689657461403444
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1780754164569602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7a1c82bcbcb77c4b9d24a2a6d8c51b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InfoPrefab: {fileID: 1219702297624702, guid: c4b43afc4b7bc3f408d61b758fd52ad6, type: 2}
-  Panel: {fileID: 0}
 --- !u!114 &114699557060376458
 MonoBehaviour:
   m_ObjectHideFlags: 1

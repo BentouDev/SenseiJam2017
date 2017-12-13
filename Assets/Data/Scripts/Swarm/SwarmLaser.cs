@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class SwarmLaser : SwarmState
 {
-    public string LookX = "Look X";
-    public string LookY = "Look Y";
-
     private bool isDuringCircle;
     private int startingIndex;
     private int prevIndex;
@@ -56,11 +53,8 @@ public class SwarmLaser : SwarmState
 
     public override Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info)
     {
-        var x = Input.GetAxis(LookX);
-        var y = Input.GetAxis(LookY);
-		
-        if (Mathf.Abs(x) > 0.01f || Mathf.Abs(y) > 0.01f)
-            Swarm.FireDirection = new Vector3(x, 0, y).normalized;
+        if (Mathf.Abs(Swarm.LookDirection.x) > 0.01f || Mathf.Abs(Swarm.LookDirection.z) > 0.01f)
+            Swarm.FireDirection = Swarm.LookDirection.normalized;
 
         return Swarm.FireDirection;
     }

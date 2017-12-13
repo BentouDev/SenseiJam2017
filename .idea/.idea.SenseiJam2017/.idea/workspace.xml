@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d087e8d1-a9f1-45fc-87dd-abbce33c1c00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/terrain.raw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/terrain2.raw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/New Terrain 2.asset" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Cube (1) Group 1.prefab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Cube (1) Group 1.prefab.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Cube (1) Group.prefab" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Cube (1) Group.prefab.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/EmergencyWindow.controller" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/EmergencyWindow.controller.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/ShowWindow.anim" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/Data/UI/ShowWindow.anim.meta" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assets/New Terrain 2.asset.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/Cooked.7z" afterPath="$PROJECT_DIR$/Cooked/Cooked.7z" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/TheGame_Data/Managed/Assembly-CSharp.dll" afterPath="$PROJECT_DIR$/Cooked/TheGame_Data/Managed/Assembly-CSharp.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/TheGame_Data/globalgamemanagers" afterPath="$PROJECT_DIR$/Cooked/TheGame_Data/globalgamemanagers" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/TheGame_Data/globalgamemanagers.assets" afterPath="$PROJECT_DIR$/Cooked/TheGame_Data/globalgamemanagers.assets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/TheGame_Data/level0" afterPath="$PROJECT_DIR$/Cooked/TheGame_Data/level0" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cooked/TheGame_Data/sharedassets0.assets" afterPath="$PROJECT_DIR$/Cooked/TheGame_Data/sharedassets0.assets" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/HeavyUnit.prefab" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/HeavyUnit.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Radar.prefab" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Radar.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Prefabs/Unit.prefab" afterPath="$PROJECT_DIR$/Assets/Data/Prefabs/Unit.prefab" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scenes/Gameplay.unity" afterPath="$PROJECT_DIR$/Assets/Data/Scenes/Gameplay.unity" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs" afterPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs" />
-    </list>
+    <list default="true" id="d087e8d1-a9f1-45fc-87dd-abbce33c1c00" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,40 +11,75 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SwarmController.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SwarmController.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+            <state relative-caret-position="476">
+              <caret line="148" column="24" lean-forward="false" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
               <folding>
-                <marker date="1512908380199" expanded="false" signature="6:114" ph="..." />
-                <marker date="1512908380199" expanded="true" signature="167:8053" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="222:389" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="1472:1538" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="1615:2742" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="1717:1810" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="2076:2126" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="2317:2656" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="2785:2928" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="2832:2887" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="2970:3399" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="3305:3359" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="3448:5133" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="3492:3896" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="4016:4507" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="4122:4497" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="4557:4607" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="4673:4797" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="4875:4969" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="5170:5507" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="5331:5501" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="5562:5845" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="5890:6027" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="6037:6890" ph="/* Vector3 direction = SwarmDirection; ... */" />
-                <marker date="1512908380199" expanded="true" signature="6946:7466" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="7146:7436" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="7522:7763" ph="{...}" />
-                <marker date="1512908380199" expanded="true" signature="7815:8051" ph="{...}" />
+                <marker date="1513204036474" expanded="false" signature="6:114" ph="..." />
+                <marker date="1513204036474" expanded="true" signature="167:8067" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="222:389" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="1702:2831" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="1804:1897" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="2163:2213" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="2404:2743" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="2874:3017" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="2921:2976" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="3059:3488" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="3394:3448" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="3523:3621" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="3658:3901" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="3933:4605" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4406:4498" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4511:4599" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4654:5982" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4698:4745" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4865:5356" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="4971:5346" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="5406:5456" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="5522:5646" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="5724:5818" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="6019:6358" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="6182:6352" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="6413:6696" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="6741:6878" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="6960:7480" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="7160:7450" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="7536:7777" ph="{...}" />
+                <marker date="1513204036474" expanded="true" signature="7829:8065" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwarmLaser.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLaser.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+              <folding>
+                <marker date="1513203727075" expanded="false" signature="6:97" ph="..." />
+                <marker date="1513203727075" expanded="true" signature="135:3403" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="425:652" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="671:723" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="762:793" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="839:915" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="965:1006" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1083:1124" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1206:1419" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1444:1510" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1548:2820" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1606:1674" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1754:2097" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1805:1889" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="1906:2087" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="2110:2814" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="2155:2239" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="2340:2634" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="2696:2804" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="2850:3176" ph="{...}" />
+                <marker date="1513203727075" expanded="true" signature="3178:3401" ph="/* void OnGUI() ... */" />
               </folding>
             </state>
           </provider>
@@ -79,7 +88,7 @@
       <file leaf-file-name="Lifetime.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Framework/Utils/Lifetime.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="686">
               <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
                 <marker date="1512899031211" expanded="false" signature="6:70" ph="..." />
@@ -100,7 +109,7 @@
       <file leaf-file-name="Damageable.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
+            <state relative-caret-position="910">
               <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <marker date="1512900163403" expanded="false" signature="6:154" ph="..." />
@@ -121,33 +130,44 @@
       <file leaf-file-name="MessageSystem.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1512906048655" expanded="true" signature="6:78" ph="..." />
-                <marker date="1512906048655" expanded="true" signature="122:435" ph="{...}" />
-                <marker date="1512906048655" expanded="true" signature="250:297" ph="{...}" />
-                <marker date="1512906048655" expanded="true" signature="324:433" ph="{...}" />
+                <marker date="1513191689306" expanded="true" signature="6:107" ph="..." />
+                <marker date="1513191689306" expanded="true" signature="151:567" ph="{...}" />
+                <marker date="1513191689306" expanded="true" signature="322:369" ph="{...}" />
+                <marker date="1513191689306" expanded="true" signature="396:565" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwarmGUI.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SwarmGUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+            <state relative-caret-position="92">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <marker date="1512908863413" expanded="true" signature="6:91" ph="..." />
-                <marker date="1512908863413" expanded="true" signature="130:1302" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="357:441" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="468:882" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="624:876" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="919:1300" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="1012:1294" ph="{...}" />
-                <marker date="1512908863413" expanded="true" signature="1214:1282" ph="{...}" />
+                <marker date="1513182404478" expanded="false" signature="6:91" ph="..." />
+                <marker date="1513182404478" expanded="true" signature="130:1661" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="394:478" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="505:1122" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="661:1116" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="1161:1659" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="1208:1275" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="1371:1653" ph="{...}" />
+                <marker date="1513182404478" expanded="true" signature="1573:1641" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vector2.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACA5A92C-578B-4550-940A-DA0E8D8A8D7A/ec/42c7ee52/Vector2.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,81 +175,32 @@
       <file leaf-file-name="UnitUI.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
               <folding>
-                <marker date="1512908043637" expanded="false" signature="6:91" ph="..." />
-                <marker date="1512908043637" expanded="true" signature="128:230" ph="{...}" />
+                <marker date="1513183324002" expanded="false" signature="6:113" ph="..." />
+                <marker date="1513183324002" expanded="true" signature="150:891" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="339:461" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="371:455" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="531:684" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="567:678" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="758:889" ph="{...}" />
+                <marker date="1513183324002" expanded="true" signature="796:883" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleActivator.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/SimpleActivator.cs">
+      <file leaf-file-name="EnemyGUI.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/EnemyGUI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
-                <marker date="1508061001644" expanded="false" signature="6:104" ph="..." />
-                <marker date="1508061001644" expanded="true" signature="180:221" ph="{...}" />
-                <marker date="1508061001644" expanded="true" signature="359:395" ph="{...}" />
-                <marker date="1508061001644" expanded="true" signature="444:755" ph="{...}" />
-                <marker date="1508061001644" expanded="true" signature="671:749" ph="{...}" />
-                <marker date="1508061001644" expanded="true" signature="803:1114" ph="{...}" />
-                <marker date="1508061001644" expanded="true" signature="1030:1108" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Follow.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Follow.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <marker date="1512900944048" expanded="true" signature="6:95" ph="..." />
-                <marker date="1512900944048" expanded="true" signature="129:778" ph="{...}" />
-                <marker date="1512900944048" expanded="true" signature="198:258" ph="{...}" />
-                <marker date="1512900944048" expanded="true" signature="307:616" ph="{...}" />
-                <marker date="1512900944048" expanded="true" signature="394:539" ph="{...}" />
-                <marker date="1512900944048" expanded="true" signature="659:697" ph="{...}" />
-                <marker date="1512900944048" expanded="true" signature="739:776" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/Controller.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <marker date="1512768968621" expanded="false" signature="6:115" ph="..." />
-                <marker date="1512768968621" expanded="true" signature="143:2989" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="198:2987" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="634:729" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="764:812" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="848:897" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="925:1350" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="978:1148" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1378:1420" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1448:1501" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1534:1581" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1613:1659" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1700:1712" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1753:1765" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1817:1829" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1875:1887" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1932:1944" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="1980:2126" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="2148:2822" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="2390:2769" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="2571:2755" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="2876:2888" ph="{...}" />
-                <marker date="1512768968621" expanded="true" signature="2930:2981" ph="{...}" />
+                <marker date="1512871138990" expanded="false" signature="6:78" ph="..." />
+                <marker date="1512871138990" expanded="true" signature="117:631" ph="{...}" />
+                <marker date="1512871138990" expanded="true" signature="235:344" ph="{...}" />
+                <marker date="1512871138990" expanded="true" signature="367:629" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -238,7 +209,7 @@
       <file leaf-file-name="Hurt.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Hurt.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
+            <state relative-caret-position="420">
               <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <marker date="1512870926776" expanded="false" signature="6:104" ph="..." />
@@ -285,6 +256,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/SimpleActivator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Player/SimplePlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACA5A92C-578B-4550-940A-DA0E8D8A8D7A/ec/42c7ee52/Vector2.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Utils/Pool/PrefabPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Utils/Pool/PooledObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/StatePawn/StatePawn.cs" root0="FORCE_HIGHLIGHTING" />
@@ -311,12 +283,8 @@
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/MechaModel.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/SwarmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLaser.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmRockets.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmSpread.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Effect.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/EnemyNoise.shader" />
@@ -328,10 +296,14 @@
         <option value="$PROJECT_DIR$/Assets/Framework/Utils/Lifetime.cs" />
         <option value="$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Follow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
         <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmRockets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLaser.cs" />
+        <option value="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs" />
       </list>
     </option>
   </component>
@@ -356,6 +328,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -369,12 +342,11 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="swarm&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;simplea&#9;null&#9;null&#10;prefab&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Pool/PrefabPool.cs&#10;follo&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Follow.cs&#10;life&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;lifetim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;eff&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Effect.cs&#10;lock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;Life&#9;null&#9;null&#10;swarmdi&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmDirect.cs&#10;swarmlock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;swarmcon&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;swarmroc&#9;null&#9;null&#10;swarmcontr&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;sim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Base/Player/SimplePlayerController.cs&#10;statepaw&#9;null&#9;null&#10;simple&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="swarmlas&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLaser.cs&#10;swarmroc&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmRockets.cs&#10;swarmlo&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;Dire&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmDirect.cs&#10;swarmcon&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;swarm&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;simplea&#9;null&#9;null&#10;prefab&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Pool/PrefabPool.cs&#10;follo&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Follow.cs&#10;life&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;lifetim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Utils/Lifetime.cs&#10;eff&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Effect.cs&#10;lock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;Life&#9;null&#9;null&#10;swarmdi&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmDirect.cs&#10;swarmlock&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmLock.cs&#10;swarmcontr&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Data/Scripts/Swarm/SwarmController.cs&#10;sim&#9;FILE&#9;file://C:/Projekty/Unity/SenseiJam2017/Assets/Framework/Base/Player/SimplePlayerController.cs&#10;statepaw&#9;null&#9;null&#10;simple&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -390,7 +362,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Unity Debug.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="6088" />
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" pid="5584" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -413,11 +385,15 @@
       <workItem from="1512870919563" duration="520000" />
       <workItem from="1512894469872" duration="4231000" />
       <workItem from="1512900751640" duration="2754000" />
+      <workItem from="1512910805654" duration="978000" />
+      <workItem from="1512912126301" duration="594000" />
+      <workItem from="1513104754613" duration="599000" />
+      <workItem from="1513181671714" duration="5275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42641000" />
+    <option name="totallyTimeSpent" value="50087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,13 +413,13 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -498,19 +474,43 @@
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs">
+            <startOffsets>
+              <startOffset value="546" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="678" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs</url>
+          <line>36</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs">
+            <startOffsets>
+              <startOffset value="773" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="883" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="22" />
+      <option name="time" value="26" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="Id.text" language="C#" />
+        <watch expression="unit.Unit.Pawn.GetInstanceID()" language="C#" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/GameStart.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/MainGame.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -728,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLaser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmSpread.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -763,31 +756,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmRockets.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/MechaModel.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="55" column="32" lean-forward="false" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -812,31 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/EnemyGUI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <marker date="1512871138990" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512871138990" expanded="true" signature="117:631" ph="{...}" />
-            <marker date="1512871138990" expanded="true" signature="235:344" ph="{...}" />
-            <marker date="1512871138990" expanded="true" signature="367:629" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/Shooting.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="994">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding>
-            <marker date="1512895622867" expanded="false" signature="6:114" ph="..." />
-            <marker date="1512895622867" expanded="true" signature="153:2197" ph="{...}" />
-            <marker date="1512895622867" expanded="true" signature="566:623" ph="{...}" />
-            <marker date="1512895622867" expanded="true" signature="647:962" ph="{...}" />
-            <marker date="1512895622867" expanded="true" signature="1008:2195" ph="{...}" />
-            <marker date="1512895622867" expanded="true" signature="1294:1540" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,12 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <marker date="1512870926248" expanded="false" signature="6:35" ph="..." />
-            <marker date="1512870926248" expanded="true" signature="182:254" ph="{...}" />
-            <marker date="1512870926248" expanded="true" signature="433:540" ph="{...}" />
-            <marker date="1512870926248" expanded="true" signature="559:756" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,25 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <marker date="1512897498912" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512897498912" expanded="true" signature="119:1923" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="417:518" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="460:512" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="569:708" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="657:702" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="730:1149" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="756:1143" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="810:874" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="916:1013" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1030:1133" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1189:1536" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1284:1530" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1571:1759" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1610:1732" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1809:1879" ph="{...}" />
-            <marker date="1512897498912" expanded="true" signature="1908:1921" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -883,19 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <marker date="1512900616126" expanded="false" signature="6:110" ph="..." />
-            <marker date="1512900616126" expanded="true" signature="153:1590" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="363:626" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="400:620" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="501:610" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="645:1068" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="990:1062" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="1126:1352" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="1183:1346" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="1409:1588" ph="{...}" />
-            <marker date="1512900616126" expanded="true" signature="1463:1582" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,13 +817,13 @@
         <state relative-caret-position="28">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <marker date="1508061001644" expanded="false" signature="6:104" ph="..." />
-            <marker date="1508061001644" expanded="true" signature="180:221" ph="{...}" />
-            <marker date="1508061001644" expanded="true" signature="359:395" ph="{...}" />
-            <marker date="1508061001644" expanded="true" signature="444:755" ph="{...}" />
-            <marker date="1508061001644" expanded="true" signature="671:749" ph="{...}" />
-            <marker date="1508061001644" expanded="true" signature="803:1114" ph="{...}" />
-            <marker date="1508061001644" expanded="true" signature="1030:1108" ph="{...}" />
+            <marker date="1512900752810" expanded="false" signature="6:104" ph="..." />
+            <marker date="1512900752810" expanded="true" signature="180:221" ph="{...}" />
+            <marker date="1512900752810" expanded="true" signature="359:395" ph="{...}" />
+            <marker date="1512900752810" expanded="true" signature="444:755" ph="{...}" />
+            <marker date="1512900752810" expanded="true" signature="671:749" ph="{...}" />
+            <marker date="1512900752810" expanded="true" signature="803:1114" ph="{...}" />
+            <marker date="1512900752810" expanded="true" signature="1030:1108" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -933,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Framework/Base/Core/Controller.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
+        <state relative-caret-position="70">
           <caret line="10" column="26" lean-forward="false" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
             <marker date="1512768968621" expanded="false" signature="6:115" ph="..." />
@@ -965,7 +878,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Hurt.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
+        <state relative-caret-position="420">
           <caret line="33" column="31" lean-forward="false" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <marker date="1512870926776" expanded="false" signature="6:104" ph="..." />
@@ -982,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Framework/Utils/Lifetime.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="686">
           <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
             <marker date="1512899031211" expanded="false" signature="6:70" ph="..." />
@@ -1001,7 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Framework/Base/Gameplay/Damageable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
+        <state relative-caret-position="910">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <marker date="1512900163403" expanded="false" signature="6:154" ph="..." />
@@ -1018,80 +931,196 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACA5A92C-578B-4550-940A-DA0E8D8A8D7A/ec/42c7ee52/Vector2.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1512906048655" expanded="true" signature="6:78" ph="..." />
-            <marker date="1512906048655" expanded="true" signature="122:435" ph="{...}" />
-            <marker date="1512906048655" expanded="true" signature="250:297" ph="{...}" />
-            <marker date="1512906048655" expanded="true" signature="324:433" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <marker date="1512908380199" expanded="false" signature="6:114" ph="..." />
-            <marker date="1512908380199" expanded="true" signature="167:8053" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="222:389" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="1472:1538" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="1615:2742" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="1717:1810" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="2076:2126" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="2317:2656" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="2785:2928" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="2832:2887" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="2970:3399" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="3305:3359" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="3448:5133" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="3492:3896" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="4016:4507" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="4122:4497" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="4557:4607" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="4673:4797" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="4875:4969" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="5170:5507" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="5331:5501" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="5562:5845" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="5890:6027" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="6037:6890" ph="/* Vector3 direction = SwarmDirection; ... */" />
-            <marker date="1512908380199" expanded="true" signature="6946:7466" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="7146:7436" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="7522:7763" ph="{...}" />
-            <marker date="1512908380199" expanded="true" signature="7815:8051" ph="{...}" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="181" column="24" lean-forward="false" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/UnitUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding>
-            <marker date="1512908043637" expanded="false" signature="6:91" ph="..." />
-            <marker date="1512908043637" expanded="true" signature="128:230" ph="{...}" />
+            <marker date="1513183324002" expanded="false" signature="6:113" ph="..." />
+            <marker date="1513183324002" expanded="true" signature="150:891" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="339:461" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="371:455" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="531:684" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="567:678" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="758:889" ph="{...}" />
+            <marker date="1513183324002" expanded="true" signature="796:883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/EnemyGUI.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1512871138990" expanded="false" signature="6:78" ph="..." />
+            <marker date="1512871138990" expanded="true" signature="117:631" ph="{...}" />
+            <marker date="1512871138990" expanded="true" signature="235:344" ph="{...}" />
+            <marker date="1512871138990" expanded="true" signature="367:629" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmDirect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1513203600975" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513203600975" expanded="true" signature="117:867" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="237:274" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="348:396" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="475:662" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="697:865" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="730:862" ph="{...}" />
+            <marker date="1513203600975" expanded="true" signature="792:858" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="34" column="53" lean-forward="false" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+          <folding>
+            <marker date="1513203637827" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513203637827" expanded="true" signature="115:1587" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="440:481" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="558:599" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="681:1028" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="1066:1427" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="1240:1421" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="1317:1411" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="1452:1509" ph="{...}" />
+            <marker date="1513203637827" expanded="true" signature="1528:1585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmRockets.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" column="99" lean-forward="false" selection-start-line="47" selection-start-column="99" selection-end-line="47" selection-end-column="99" />
+          <folding>
+            <marker date="1513203697924" expanded="false" signature="6:78" ph="..." />
+            <marker date="1513203697924" expanded="true" signature="118:1421" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="295:321" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="368:397" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="436:462" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="536:584" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="663:917" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="952:1052" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="1129:1419" ph="{...}" />
+            <marker date="1513203697924" expanded="true" signature="1246:1398" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmGUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        <state relative-caret-position="92">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <marker date="1512908863413" expanded="true" signature="6:91" ph="..." />
-            <marker date="1512908863413" expanded="true" signature="130:1302" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="357:441" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="468:882" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="624:876" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="919:1300" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="1012:1294" ph="{...}" />
-            <marker date="1512908863413" expanded="true" signature="1214:1282" ph="{...}" />
+            <marker date="1513182404478" expanded="false" signature="6:91" ph="..." />
+            <marker date="1513182404478" expanded="true" signature="130:1661" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="394:478" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="505:1122" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="661:1116" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="1161:1659" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="1208:1275" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="1371:1653" ph="{...}" />
+            <marker date="1513182404478" expanded="true" signature="1573:1641" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/MessageSystem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1513191689306" expanded="true" signature="6:107" ph="..." />
+            <marker date="1513191689306" expanded="true" signature="151:567" ph="{...}" />
+            <marker date="1513191689306" expanded="true" signature="322:369" ph="{...}" />
+            <marker date="1513191689306" expanded="true" signature="396:565" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmLaser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="58" column="35" lean-forward="false" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding>
+            <marker date="1513203727075" expanded="false" signature="6:97" ph="..." />
+            <marker date="1513203727075" expanded="true" signature="135:3403" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="425:652" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="671:723" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="762:793" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="839:915" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="965:1006" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1083:1124" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1206:1419" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1444:1510" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1548:2820" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1606:1674" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1754:2097" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1805:1889" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="1906:2087" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="2110:2814" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="2155:2239" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="2340:2634" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="2696:2804" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="2850:3176" ph="{...}" />
+            <marker date="1513203727075" expanded="true" signature="3178:3401" ph="/* void OnGUI() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Data/Scripts/Swarm/SwarmController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="148" column="24" lean-forward="false" selection-start-line="148" selection-start-column="24" selection-end-line="148" selection-end-column="24" />
+          <folding>
+            <marker date="1513204036474" expanded="false" signature="6:114" ph="..." />
+            <marker date="1513204036474" expanded="true" signature="167:8067" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="222:389" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="1702:2831" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="1804:1897" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="2163:2213" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="2404:2743" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="2874:3017" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="2921:2976" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="3059:3488" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="3394:3448" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="3523:3621" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="3658:3901" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="3933:4605" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4406:4498" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4511:4599" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4654:5982" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4698:4745" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4865:5356" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="4971:5346" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="5406:5456" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="5522:5646" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="5724:5818" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="6019:6358" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="6182:6352" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="6413:6696" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="6741:6878" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="6960:7480" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="7160:7450" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="7536:7777" ph="{...}" />
+            <marker date="1513204036474" expanded="true" signature="7829:8065" ph="{...}" />
           </folding>
         </state>
       </provider>

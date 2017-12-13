@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class SwarmRockets : SwarmState
 {
-	public string LookX = "Look X";
-	public string LookY = "Look Y";
-
 	public float CameraMin;
 	public float CameraMax;
 	
-	public float CurrentRadius;
 	public float Power = 2.5f;
 
 	public Transform Cursor;
@@ -39,20 +35,17 @@ public class SwarmRockets : SwarmState
 
 	public override Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info)
 	{
-		var x = Input.GetAxis(LookX);
-		var y = Input.GetAxis(LookY);
-
-		Direction = LimitFlatDiagonalVector(new Vector3(x, 0, y), 1);
+		Direction = LimitFlatDiagonalVector(Swarm.LookDirection, 1);
 		
-		if (Mathf.Abs(x) > 0.01f || Mathf.Abs(y) > 0.01f)
-			Swarm.FireDirection = new Vector3(x, 0, y).normalized;
+		if (Mathf.Abs(Swarm.LookDirection.x) > 0.01f || Mathf.Abs(Swarm.LookDirection.z) > 0.01f)
+			Swarm.FireDirection = Swarm.LookDirection.normalized;
 		
 		return Swarm.FireDirection;
 	}
 
 	protected override void OnTick()
 	{
-		Cursor.position = Swarm.Pawn.transform.position + Direction * (Swarm.TargetRadius * Power);//+ CurrentRadius);
+		Cursor.position = Swarm.Pawn.transform.position + Direction * (Swarm.TargetRadius * Power);
 	}
 	
 	internal Vector3 LimitFlatDiagonalVector(Vector3 vector, float maxLength)

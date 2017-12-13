@@ -39,26 +39,24 @@ public class SwarmController : Framework.Controller
 
     public SwarmGUI GUI;
 
-    [Header("Input")]
+    [Header("Input")] 
+    public float InputThreshold = 0.01f;
     public string MoveX = "Horizontal";
     public string MoveY = "Vertical";
+    public string LookX = "Look X";
+    public string LookY = "Look Y";
     public string SquadRadius = "SquadRadius";
+
+    private Vector2 MouseInput;
+    private Vector2 PadInput;
 
     [HideInInspector]
     public Vector3 SwarmDirection;
     public Vector3 FireDirection  { get; set; }
+    public Vector3 LookDirection { get; set; }
 
     private int LastUnitCount;
     private static readonly float GoldenPretzel = (Mathf.Sqrt(5) + 1) * 0.5f;
-
-    private enum FormationSize
-    {
-        Stopped,
-        Shrinking,
-        Expanding
-    }
-
-    private FormationSize RadiusMode;
 
     protected override void OnInit()
     {
@@ -96,7 +94,7 @@ public class SwarmController : Framework.Controller
 
         LastUnitCount = Pawns.Count;
         
-        GUI.UpdatePositioning();
+        GUI.OnUpdatePositioning();
     }
 
     protected override void OnFixedTick()
@@ -126,19 +124,49 @@ public class SwarmController : Framework.Controller
         Pawn.LateTick();
     }
 
+    private void GatherPadInput()
+    {
+        PadInput.x = Input.GetAxis(LookX);
+        PadInput.y = Input.GetAxis(LookY);
+    }
+
+    private void GatherMouseInput()
+    {
+        var screenCenter = new Vector3(Screen.width * 0.5f, Screen.height * 0.5f, 0);
+        var mousePos = Input.mousePosition;
+        var mouseDiff = mousePos - screenCenter;
+
+        MouseInput = mouseDiff.normalized;        
+    }
+
+    private void GatherInput()
+    {
+        var radiusChange = Input.GetAxis(SquadRadius);
+        if (Mathf.Abs(radiusChange) > 0.01f)
+            TargetRadius = Mathf.Clamp(TargetRadius + radiusChange * ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
+
+        SwarmDirection.x = Input.GetAxis(MoveX);
+        SwarmDirection.z = Input.GetAxis(MoveY);
+
+        GatherMouseInput();
+        GatherPadInput();
+
+        if (PadInput.magnitude < InputThreshold && MouseInput.magnitude > InputThreshold)
+        {
+            LookDirection = new Vector3(MouseInput.x, 0, MouseInput.y);
+        }
+        else
+        {
+            LookDirection = new Vector3(PadInput.x, 0, PadInput.y);
+        }
+    }
+
     protected override void OnProcessControll()
     {
         // Input
         if (Enabled)
         {
-            RadiusMode = FormationSize.Stopped;
-
-            var radius = Input.GetAxis(SquadRadius);
-            if (Mathf.Abs(radius) > 0.01f)
-                TargetRadius = Mathf.Clamp(TargetRadius + radius * ChangeSpeed * Time.deltaTime, MinRadius, MaxRadius);
-            
-            SwarmDirection.x = Input.GetAxis(MoveX);
-            SwarmDirection.z = Input.GetAxis(MoveY);
+            GatherInput();
         }
 
         if (CurrentState)
@@ -189,7 +217,7 @@ public class SwarmController : Framework.Controller
 
     public void UpdatePositioning()
     {
-        GUI.UpdatePositioning();
+        GUI.OnUpdatePositioning();
         
         var poses = CalcPositions(Pawns.Count, Alpha);
         for (int index = 0; index < Pawns.Count; index++)
@@ -217,25 +245,6 @@ public class SwarmController : Framework.Controller
 
         return CalcDefaultMovement(info);
     }
-    
-    // Vector3 direction = SwarmDirection;
-
-//        var displacement = info.Pawn.transform.position - GroupCenter;
-//        var diff         = displacement - new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * TargetRadius;
-//        if (diff.magnitude > 0.1f)// Mathf.Abs(diff.magnitude - (info.FormationOffset * TargetRadius).magnitude) > 0.01f)
-//        {
-//            direction += diff;
-//        }
-
-//        switch (RadiusMode)
-//        {
-//            case FormationSize.Expanding:
-//                direction += new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
-//                break;
-//            case FormationSize.Shrinking:
-//                direction -= new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y) * ChangeSpeed;
-//                break;
-//        }
 
     // Swarm positioning
     List<Vector2> CalcPositions(int count, float alpha)

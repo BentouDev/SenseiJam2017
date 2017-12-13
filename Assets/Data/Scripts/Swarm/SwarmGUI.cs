@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SwarmGUI : MonoBehaviour
 {
+    public Gradient BackgroundColor;
     public SwarmController Swarm;
     public TextMeshProUGUI CurrentState;
 
@@ -27,14 +28,24 @@ public class SwarmGUI : MonoBehaviour
         
         foreach (UnitData unit in Units)
         {
-            unit.UI.Id.text = "id: " + unit.Unit.Pawn.GetInstanceID().ToString();
-            unit.UI.Hash.text = "offset: " + unit.Unit.FormationOffset;
-            unit.UI.State.text = "state:" + unit.Unit.Pawn.CurrentState.name;
+            unit.UI.SetId(unit.Unit.Pawn.GetInstanceID());
+            unit.UI.SetHash(unit.Unit.FormationOffset.GetHashCode());
+            unit.UI.SetState(unit.Unit.Pawn.CurrentState.GetType().Name.ToLower());
+            
+            unit.UI.Background.color = BackgroundColor.Evaluate
+            (
+                1 - ((float) unit.Unit.Pawn.Damageable.CurrentHealth / (float) unit.Unit.Pawn.Damageable.MaxHealth)
+            );
         }
     }
 
-    public void UpdatePositioning()
+    public void OnUpdatePositioning()
     {
+        foreach (UnitData data in Units)
+        {
+            DestroyObject(data.UI.gameObject);
+        }
+        
         Units.Clear();
 
         foreach (SwarmController.PawnInfo info in Swarm.Pawns)

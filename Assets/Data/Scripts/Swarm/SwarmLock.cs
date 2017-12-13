@@ -6,8 +6,6 @@ public class SwarmLock : SwarmState
 {	
     public PrefabPool ProjectilePrefab;
     
-    public string LookX = "Look X";
-    public string LookY = "Look Y";
     public string Shoot = "Shoot";
 
     public float GrowSpeed = 0.25f;
@@ -33,11 +31,8 @@ public class SwarmLock : SwarmState
 
     public override Vector3 CalcPawnFireDirection(SwarmController.PawnInfo info)
     {
-        var x = Input.GetAxis(LookX);
-        var y = Input.GetAxis(LookY);
-		
-        if (Mathf.Abs(x) > 0.01f || Mathf.Abs(y) > 0.01f)
-            Swarm.FireDirection = new Vector3(x, 0, y).normalized;
+        if (Mathf.Abs(Swarm.LookDirection.x) > 0.01f || Mathf.Abs(Swarm.LookDirection.z) > 0.01f)
+            Swarm.FireDirection = Swarm.LookDirection.normalized;
 
         var custom = new Vector3(info.FormationOffset.x, 0, info.FormationOffset.y).normalized;
         
