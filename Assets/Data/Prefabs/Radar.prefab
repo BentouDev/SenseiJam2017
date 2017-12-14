@@ -4456,7 +4456,7 @@ MonoBehaviour:
   DrawDebug: 0
   Body: {fileID: 0}
   Damageable: {fileID: 0}
-  Anim: {fileID: 95152097440938130}
+  Anim: {fileID: 0}
   Grounder: {fileID: 0}
   DrawHit: 0
   RaycastMask:
@@ -4487,8 +4487,8 @@ MonoBehaviour:
   CurrentSpeed: 0
   CurrentDirection: {x: 0, y: 0, z: 0}
   Animation:
-    MovementBlend: Forward
-    AirBoolean: InAir
+    MovementBlend: 
+    AirBoolean: 
     MoveBoolean: 
   AllStates: []
   CircleDirection: {x: 0, y: 0, z: 0}

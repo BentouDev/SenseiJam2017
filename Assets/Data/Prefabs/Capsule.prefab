@@ -627,6 +627,7 @@ GameObject:
   - component: {fileID: 4670728648948988}
   - component: {fileID: 136618921937270188}
   - component: {fileID: 54366622714466618}
+  - component: {fileID: 114388458076385300}
   - component: {fileID: 114473604658217306}
   - component: {fileID: 114252302123907218}
   - component: {fileID: 114153767947138722}
@@ -1598,8 +1599,8 @@ MonoBehaviour:
   CurrentSpeed: 0
   CurrentDirection: {x: 0, y: 0, z: 0}
   Animation:
-    MovementBlend: Forward
-    AirBoolean: InAir
+    MovementBlend: 
+    AirBoolean: 
     MoveBoolean: 
   AllStates: []
   CircleDirection: {x: 0, y: 0, z: 0}
@@ -1661,6 +1662,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ce0d19650e1e5448a94cb1eb3f26807, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114388458076385300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1780754164569602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8d52708552c3834cb9bf0620574751e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Pool: {fileID: 0}
+  PoolName: EnemyDeath
+  UsePosition: 1
+  UseRotation: 1
+  Parent: 0
 --- !u!114 &114402083136364312
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1674,6 +1691,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InitOnStart: 1
   DrawDebug: 0
+  UseCachedControllSystem: 1
+  System: {fileID: 0}
   StopOnStateChange: 1
   FindByTag: 0
   PawnTag: 
@@ -1695,7 +1714,6 @@ MonoBehaviour:
   MaxHealth: 300
   StartingHealth: 300
   Delay: 0.25
-  OnDead: {fileID: 1230031023274082, guid: 2a304477189d16043aed371be42e86c9, type: 2}
   DeathAnim:
     IsPlaying: 0
     ForceStopOnEnd: 0
@@ -1706,15 +1724,36 @@ MonoBehaviour:
     Duration: 1
     OnStart:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 114388458076385300}
+          m_MethodName: Spawn
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 4670728648948988}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
         Culture=neutral, PublicKeyToken=null
     OnFinish:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 114402083136364312}
+          m_MethodName: KillImmediate
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
       m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  DedDuration: 1
 --- !u!114 &114560645681164710
 MonoBehaviour:
   m_ObjectHideFlags: 1

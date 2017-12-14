@@ -11,7 +11,7 @@ public class Shooting : MonoBehaviour
     
     public StatePawn Pawn;
     public GameObject MuzzlePrefab;
-    private Effect Muzzle;
+    private ParticlePlayer Muzzle;
     
     private float StandardCooldown;
     public float MinRandomCooldown;
@@ -52,7 +52,7 @@ public class Shooting : MonoBehaviour
 
         if (!Muzzle)
         {
-            Muzzle = Instantiate(MuzzlePrefab).GetComponent<Effect>();
+            Muzzle = Instantiate(MuzzlePrefab).GetComponent<ParticlePlayer>();
             Muzzle.transform.position = Rifles[RifleIndex].transform.position;
             Muzzle.transform.SetParent(Rifles[RifleIndex].transform, true);
         }

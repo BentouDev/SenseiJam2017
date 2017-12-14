@@ -9,7 +9,7 @@ public class Follow : Controller
 
     protected override void OnInit()
     {
-        MainGame.Instance.Controllers.Enable();
+        EnableInput();
     }
 
     protected override void OnProcessControll()

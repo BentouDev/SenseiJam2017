@@ -2797,8 +2797,8 @@ MonoBehaviour:
   CurrentSpeed: 0
   CurrentDirection: {x: 0, y: 0, z: 0}
   Animation:
-    MovementBlend: Forward
-    AirBoolean: InAir
+    MovementBlend: 
+    AirBoolean: 
     MoveBoolean: 
   AllStates: []
   CircleDirection: {x: 0, y: 0, z: 0}

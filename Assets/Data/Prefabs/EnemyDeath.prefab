@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4010573627076626}
   - component: {fileID: 198914111608154094}
   - component: {fileID: 199007571015535992}
+  - component: {fileID: 114215292211861342}
   m_Layer: 10
   m_Name: EnemyDeath
   m_TagString: Untagged
@@ -41,6 +42,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114215292211861342
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1230031023274082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4afe6040e84c168f3a62b2ee6a5af9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BeginOnStart: 1
+  DestroyOnEnd: 1
+  Duration: 1
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!198 &198914111608154094
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -101,7 +121,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 126945683
+  randomSeed: 186646229
   InitialModule:
     serializedVersion: 3
     enabled: 1
