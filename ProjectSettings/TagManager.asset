@@ -16,10 +16,10 @@ TagManager:
   - GroupCenter
   - Mechs
   - Enemy
-  - Projectiles
+  - PlayerProjectiles
   - Lamp
   - Trigger
-  - 
+  - EnemyHitboxes
   - 
   - 
   - 

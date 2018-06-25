@@ -17667,27 +17667,19 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114402083136364312, guid: 986aefd51fe3d7448b8c138bc0bc1b9f,
-        type: 2}
-      propertyPath: Target
-      value: 
-      objectReference: {fileID: 1075351872}
-    - target: {fileID: 0}
-      propertyPath: Panel
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 223672007058129370, guid: 986aefd51fe3d7448b8c138bc0bc1b9f,
         type: 2}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 893883592}
+    - target: {fileID: 114402083136364312, guid: 986aefd51fe3d7448b8c138bc0bc1b9f,
+        type: 2}
+      propertyPath: Target
+      value: 
+      objectReference: {fileID: 1075351872}
     - target: {fileID: 1780754164569602, guid: 986aefd51fe3d7448b8c138bc0bc1b9f, type: 2}
       propertyPath: m_Name
       value: TheUnknown (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1780754164569602, guid: 986aefd51fe3d7448b8c138bc0bc1b9f, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 986aefd51fe3d7448b8c138bc0bc1b9f, type: 2}
@@ -22447,8 +22439,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 6
     localAABB:
-      m_Center: {x: 0, y: 0, z: -0.01000042}
-      m_Extent: {x: 0.5, y: 0.5, z: 0.00000008940697}
+      m_Center: {x: 0.000000014901161, y: 0, z: 0.038855426}
+      m_Extent: {x: 0.5, y: 0.5, z: 0.000000059604645}
   m_Shapes:
     vertices: []
     shapes: []
@@ -22500,7 +22492,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 240
-    _typelessdata: 9826d4be000000bf1cd923bc1300403400000000000080bfa065af3d00000000a065af3d0000000080a7a93e0000003f8dd823bc1300403400000000000080bfc0d3543f0000803fc0d3543f0000803f0000003f0000003f6dd823bc1300403400000000000080bf0000803f0000803f0000803f0000803f0000003ffeffffbe6dd823bc1300403400000000000080bf0000803f000080330000803f00008033000000bf000000bf2dd923bc1300403400000000000080bf00000000000000000000000000000000000000bf0000003f2dd923bc1300403400000000000080bf000000000000803f000000000000803f
+    _typelessdata: 338adabe000000bfec261f3db73ffdb300000000000080bf34d7953d0000000034d7953d00000000e743a33e0000003fd4261f3db73ffdb300000000000080bff4a1513f0000803ff4a1513f0000803f0000003f0000003fce261f3db73ffdb300000080000080bf0000803f0000803f0000803f0000803f0000003f000000bfce261f3db73ffdb300000080000080bf0000803f000000000000803f00000000feffffbe000000bfee261f3db73ffdb300000000000080bf00008033000000000000803300000000ffffffbe0000003fee261f3db73ffdb300000000000080bf000000330000803f000000330000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -22554,8 +22546,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: -0.01000042}
-    m_Extent: {x: 0.5, y: 0.5, z: 0.00000008940697}
+    m_Center: {x: 0.000000014901161, y: 0, z: 0.038855426}
+    m_Extent: {x: 0.5, y: 0.5, z: 0.000000059604645}
   m_MeshUsageFlags: 0
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 

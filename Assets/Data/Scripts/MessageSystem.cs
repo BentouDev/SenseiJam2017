@@ -19,6 +19,7 @@ public class MessageSystem : MonoBehaviour
 
     IEnumerator CoDelay()
     {
+        yield return new WaitForEndOfFrame();
         Show.Play();
         ShowPlayable?.Play();
         yield return new WaitForSeconds(ShowDuration);
